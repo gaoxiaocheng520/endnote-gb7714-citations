@@ -13,7 +13,9 @@ This repository contains a read-only DOCX citation inventory tool and the EndNot
 
 ## Quick start
 
-Clone this repository, then inventory a manuscript:
+Clone this repository. To let Codex perform the complete assisted workflow, copy the repository folder into your Codex skills directory (`$CODEX_HOME/skills`, or `~/.codex/skills` when `CODEX_HOME` is unset), then start a new Codex task and ask it to use `endnote-gb7714-citations`.
+
+Inventory a manuscript:
 
 ```bash
 python3 scripts/inventory_docx.py /path/to/manuscript.docx --output citation-inventory.json
